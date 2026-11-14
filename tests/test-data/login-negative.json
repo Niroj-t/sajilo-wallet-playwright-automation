@@ -1,0 +1,42 @@
+[
+  {
+    "id": "TC_LOGIN_02",
+    "title": "empty username",
+    "username": "",
+    "password": "Ram@1234",
+    "field": "username-error",
+    "message": "Username is required"
+  },
+  {
+    "id": "TC_LOGIN_02b",
+    "title": "empty password",
+    "username": "ram.thapa",
+    "password": "",
+    "field": "password-error",
+    "message": "Password is required"
+  },
+  {
+    "id": "TC_LOGIN_03",
+    "title": "wrong password",
+    "username": "ram.thapa",
+    "password": "Wrong@999",
+    "field": "login-error",
+    "message": "Invalid username or password"
+  },
+  {
+    "id": "TC_LOGIN_03b",
+    "title": "unknown username",
+    "username": "nobody",
+    "password": "Ram@1234",
+    "field": "login-error",
+    "message": "Invalid username or password"
+  },
+  {
+    "id": "TC_LOGIN_04",
+    "title": "locked account",
+    "username": "hari.karki",
+    "password": "Hari@1234",
+    "field": "login-error",
+    "message": "Your account is locked. Please contact support."
+  }
+]
